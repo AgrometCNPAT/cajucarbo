@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#004993" />
+  <title>Dados e Resultados — CajuCarbo</title>
+  <meta name="description" content="Andamento da coleta de dados e das análises do projeto CajuCarbo. Os resultados científicos serão publicados à medida que forem obtidos." />
+  <link rel="icon" href="assets/logos/CajuCarbo_Logo-removebg-preview.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/pages.css?v=3" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="CajuCarbo — página inicial">
+        <img class="brand__logo" src="assets/logos/CajuCarbo_Logo-removebg-preview.png" alt="CajuCarbo" />
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="projeto.html">Projeto</a>
+        <a href="metodologia.html">Metodologia</a>
+        <a href="resultados.html" class="active">Resultados</a>
+        <a href="publicacoes.html">Publicações</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Início</a> / Dados e Resultados</p>
+        <span class="eyebrow">Dados e Resultados</span>
+        <h1>Transparência a cada etapa</h1>
+        <p>Os dados e resultados científicos serão disponibilizados à medida que as medições e análises forem realizadas. Nada será apresentado antes de ser obtido e validado.</p>
+      </div>
+    </section>
+
+    <section class="section" id="andamento">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Andamento</span>
+          <h2>Etapas do processo científico</h2>
+          <p class="lead">As barras representam etapas do fluxo de trabalho — não porcentagens de resultados.</p>
+        </div>
+        <div class="progress-grid" data-reveal-group>
+          <div class="progress-card" data-reveal>
+            <h3>Coleta de dados</h3>
+            <span class="badge badge--dev"><span class="dot"></span>Em andamento</span>
+            <div class="progress-track"><div class="progress-fill" data-progress="45"></div></div>
+            <span class="stage-label">Instalação e registro contínuo em campo</span>
+          </div>
+          <div class="progress-card" data-reveal>
+            <h3>Análises</h3>
+            <span class="badge badge--dev"><span class="dot"></span>Em andamento</span>
+            <div class="progress-track"><div class="progress-fill" data-progress="25"></div></div>
+            <span class="stage-label">Processamento laboratorial das amostras</span>
+          </div>
+          <div class="progress-card" data-reveal>
+            <h3>Resultados</h3>
+            <span class="badge badge--wait"><span class="dot"></span>Aguardando dados</span>
+            <div class="progress-track"><div class="progress-fill" data-progress="8"></div></div>
+            <span class="stage-label">Publicação após validação científica</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tint" id="grafico">
+      <div class="container">
+        <div class="section-head" data-reveal>
+          <span class="eyebrow">Visualização</span>
+          <h2>Como os dados serão apresentados</h2>
+        </div>
+        <div style="background:var(--superficie);border:1px solid var(--cinza-borda);border-radius:18px;padding:36px" data-reveal="scale">
+          <span class="chart-note"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4M12 17h.01M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z"/></svg>Exemplo visual — dados ilustrativos, não representam medições reais</span>
+          <p style="color:var(--texto-suave);margin-bottom:26px">Quando os dados reais estiverem disponíveis, gráficos como este serão alimentados dinamicamente para apresentar a evolução das variáveis monitoradas.</p>
+          <div class="bars" aria-hidden="true">
+            <div class="bar" data-h="45"><span>Jan</span></div>
+            <div class="bar" data-h="62"><span>Fev</span></div>
+            <div class="bar" data-h="38"><span>Mar</span></div>
+            <div class="bar" data-h="75"><span>Abr</span></div>
+            <div class="bar" data-h="54"><span>Mai</span></div>
+            <div class="bar" data-h="83"><span>Jun</span></div>
+            <div class="bar" data-h="49"><span>Jul</span></div>
+          </div>
+          <p style="margin-top:44px;font-size:0.85rem;color:var(--texto-suave)">Legenda ilustrativa. Os eixos, unidades e séries serão definidos conforme o protocolo de medição do projeto.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <span class="brand__name">Caju<span>Carbo</span></span>
+          <p>Projeto de pesquisa sobre as interações entre o cultivo de caju, as condições ambientais e o carbono, no âmbito da Embrapa.</p>
+        </div>
+        <div>
+          <h4>Navegação</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="projeto.html">O Projeto</a></li>
+            <li><a href="metodologia.html">Metodologia</a></li>
+            <li><a href="resultados.html">Dados e Resultados</a></li>
+            <li><a href="publicacoes.html">Publicações</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <p>CajuCarbo · Embrapa</p>
+          <p class="placeholder">Endereço: Embrapa Agroindústria Tropical<br />Rua Dra. Sara Mesquita, nº 2.270, Bairro Planalto do Pici, CEP 60511-110</p>
+          <p class="placeholder">E-mail: magna.moura@embrapa.br</p>
+          <p class="placeholder">Telefone: +55 (85) 3391-7100</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> CajuCarbo · Embrapa. Todos os direitos reservados.</span>
+        <span>Projeto de pesquisa científica em desenvolvimento.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    /* Anima barras de progresso e gráfico ilustrativo ao entrar no viewport */
+    (function () {
+      var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      function fill(el) {
+        if (el.dataset.progress) el.style.width = el.dataset.progress + "%";
+        if (el.dataset.h) el.style.height = el.dataset.h + "%";
+      }
+      var targets = document.querySelectorAll("[data-progress],[data-h]");
+      if (reduce || !("IntersectionObserver" in window)) { targets.forEach(fill); return; }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) { if (e.isIntersecting) { fill(e.target); io.unobserve(e.target); } });
+      }, { threshold: 0.3 });
+      targets.forEach(function (t) { io.observe(t); });
+    })();
+  </script>
+</body>
+</html>
